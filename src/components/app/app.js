@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-
+import styles from './app.module.scss';
 
 const App = () => {
   return (
-    <div>
+    <div className={styles.text}>
       hello
     </div>
   );

@@ -1,8 +1,8 @@
 .wrapper {
-  background-color: #fff;
-  border-radius: 10px;
+  width: calc(100vw - 100px);
+  max-width: 1400px;
   height: 100%;
   margin: 50px auto;
-  max-width: 1400px;
-  width: calc(100vw - 100px);
+  background-color: #ffffff;
+  border-radius: 10px;
 }

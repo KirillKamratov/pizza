@@ -18,7 +18,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "TSC_COMPILE_ON_ERROR=true react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -51,7 +51,6 @@
     ]
   },
   "editorconfig-cli": [
-    "*.json",
     "src/**/*.{js,jsx,ts,tsx,scss,css}"
   ],
   "lint-staged": {

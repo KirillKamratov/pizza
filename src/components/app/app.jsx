@@ -1,8 +1,11 @@
-import styles from './app.module.scss';
+import Categories from '../categories/categories'
+import styles from './app.module.scss'
 
 const App = () => {
   return (
-    <div className={styles.wrapper}></div>
+    <div className={styles.wrapper}>
+      <Categories />
+    </div>
   )
 }
 

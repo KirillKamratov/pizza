@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 80px;
+  padding: 45px 0;
+  border-bottom: 1px solid #f6f6f6;
+
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+
+  &__heading {
+    margin: 0;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: .01em;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin: 0;
+    color: #7b7b7b;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__logo {
+    margin-right: 20px;
+  }
+}

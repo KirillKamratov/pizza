@@ -1,0 +1,18 @@
+.button {
+  padding: 13px 30px;
+  font-weight: 700;
+  background-color: #f9f9f9;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color .3s ease-in-out;
+  user-select: none;
+
+  &:hover {
+    background-color: #e8e8e8;
+  }
+
+  &:active {
+    color: #ffffff;
+    background-color: #282828;
+  }
+}
